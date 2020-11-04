@@ -8,8 +8,9 @@ using namespace std;
 int _tmain(int argc, _TCHAR* argv[]){
 	List L;
 	Init (L);
-	Insert ("musa", L); Insert ("jane", L); Insert ("smile", L); ShowData (L);
-	Delete ("jane",L);ShowData (L); 
+	Insert ("Simphiwe", L); Insert ("Hlatjwako", L); Insert ("MissLaughter", L); ShowData (L);
+	Delete ("Hlatjwako",L); ShowData (L); 
+	Insert ("Dlamini", L); ShowData (L);
 	
 	
 	system("pause");
